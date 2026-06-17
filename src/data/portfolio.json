@@ -1,0 +1,63 @@
+{
+  "basics": {
+    "name": "Moris David Allan Arias",
+    "title": "Desarrollador de Software",
+    "email": "allandavid184@gmail.com",
+    "phone": "+593 99 272 4223",
+    "linkedin": "https://linkedin.com/in/david-allan-arias/",
+    "github": "",
+    "picture": "https://rxresu.me/api/uploads/019ed134-6340-77fa-b577-6f2980f2279c/pictures/1781627875832.jpeg",
+    "summary": "Desarrollador de Software enfocado en ingeniería backend y optimización de procesos empresariales. Especializado en la implementación de sistemas ERP (Openbravo, Odoo) y automatización mediante N8N. Con experiencia en el ciclo completo de desarrollo, bases de datos PostgreSQL y despliegue en contenedores Docker, enfocado en diseñar soluciones sólidas y escalables."
+  },
+  "experience": [
+    {
+      "company": "Sidesoft CIA. LTDA",
+      "position": "Desarrollador de Software (Junior)",
+      "period": "Mar 2025 - Mar 2026",
+      "location": "Quito",
+      "description": [
+        "Desarrollé e implementé personalizaciones backend para ecosistemas ERP (Openbravo y Odoo) con Java y Python.",
+        "Diseñé flujos de trabajo automatizados con N8N para integración de APIs y reducción de carga operativa.",
+        "Optimicé consultas SQL en PostgreSQL mejorando el rendimiento de módulos empresariales."
+      ]
+    },
+    {
+      "company": "Secretaría Técnica Inmobiliar",
+      "position": "Pasante de Desarrollo de Software",
+      "period": "Ago 2024 - Sep 2024",
+      "location": "Quito",
+      "description": [
+        "Desarrollé aplicaciones web bajo el estándar Java EE para la gestión de asuntos internos.",
+        "Refactoricé código Java y migré componentes visuales para mejorar la estabilidad y escalabilidad del sistema.",
+        "Diseñé esquemas de bases de datos relacionales, garantizando la integridad de información crítica."
+      ]
+    },
+    {
+      "company": "Óptica Geovisión",
+      "position": "Líder de Proyecto de Desarrollo de Software",
+      "period": "Ene 2024 - Jun 2024",
+      "location": "",
+      "description": [
+        "Lideré un equipo de 2 personas en el desarrollo de sistemas de escritorio utilizando Java y PostgreSQL, supervisando todas las fases del proyecto desde la planificación hasta su despliegue.",
+        "Desarrollé sistemas de gestión de fichas técnicas e inventario para una óptica, incluyendo manejo de facturación, control de stock, especificaciones de lentes y funcionalidades de creación, actualización e impresión.",
+        "Coordiné con el cliente para definir requisitos del software y capacité al equipo en tecnologías como Java y PostgreSQL para mejorar sus habilidades técnicas."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Politécnica Salesiana",
+      "degree": "Ingeniería en Ciencias de la Computación",
+      "period": "2021 - 2025"
+    }
+  ],
+  "skills": [
+    "Java (Java EE) & Python",
+    "SQL & PostgreSQL",
+    "Openbravo & Odoo",
+    "Docker & Linux",
+    "Git & GitHub",
+    "N8N & Metabase"
+  ],
+  "projects": []
+}
