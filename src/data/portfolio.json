@@ -61,6 +61,7 @@
   ],
   "projects": [
     {
+      "id": "pet-store",
       "name": "Pet Store e-commerce",
       "image": "/pet_shop.png",
       "link": "https://tienda-mascotas-ex-analisis.vercel.app",
@@ -72,6 +73,7 @@
       ]
     },
     {
+      "id": "lens-data-sheet",
       "name": "Lens technical data sheet",
       "video": "/lens_demo.mp4",
       "technologies": ["Java", "Swing", "PostgreSQL"],

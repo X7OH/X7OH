@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { ExternalLink, Terminal } from 'lucide-react';
 import portfolioData from '../../data/portfolio.json';
 
@@ -55,19 +56,27 @@ export default function Projects() {
                   ))}
                 </div>
 
-                {project.link && (
-                  <div className="mt-auto flex justify-end">
+                <div className="mt-auto flex justify-end gap-3">
+                  {project.id && (
+                    <Link 
+                      to={`/project/${project.id}`}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-800/50 hover:bg-zinc-700 text-zinc-300 hover:text-zinc-100 text-xs font-medium rounded transition-colors border border-zinc-700/30"
+                    >
+                      Details
+                    </Link>
+                  )}
+                  {project.link && (
                     <a 
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs font-medium rounded transition-colors border border-zinc-700/50"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-400 text-xs font-medium rounded transition-colors border border-indigo-500/20"
                     >
-                      View
+                      View App
                       <ExternalLink size={12} />
                     </a>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             </div>
           ))}
