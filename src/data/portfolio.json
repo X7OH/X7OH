@@ -1,53 +1,53 @@
 {
   "basics": {
     "name": "Moris David Allan Arias",
-    "title": "Desarrollador de Software",
+    "title": "Software Developer",
     "email": "allandavid184@gmail.com",
     "phone": "+593 99 272 4223",
     "linkedin": "https://linkedin.com/in/david-allan-arias/",
     "github": "",
     "picture": "https://rxresu.me/api/uploads/019ed134-6340-77fa-b577-6f2980f2279c/pictures/1781627875832.jpeg",
-    "summary": "Desarrollador de Software enfocado en ingeniería backend y optimización de procesos empresariales. Especializado en la implementación de sistemas ERP (Openbravo, Odoo) y automatización mediante N8N. Con experiencia en el ciclo completo de desarrollo, bases de datos PostgreSQL y despliegue en contenedores Docker, enfocado en diseñar soluciones sólidas y escalables."
+    "summary": "Software Developer focused on backend engineering and enterprise process optimization. Specialized in implementing ERP systems (Openbravo, Odoo) and automation using N8N. Experienced in the full development lifecycle, PostgreSQL databases, and Docker container deployment, dedicated to designing robust and scalable solutions."
   },
   "experience": [
     {
-      "company": "Sidesoft CIA. LTDA",
-      "position": "Desarrollador de Software (Junior)",
+      "company": "ERP Backend Customization & Automation",
+      "position": "Junior Software Developer",
       "period": "Mar 2025 - Mar 2026",
       "location": "Quito",
       "description": [
-        "Desarrollé e implementé personalizaciones backend para ecosistemas ERP (Openbravo y Odoo) con Java y Python.",
-        "Diseñé flujos de trabajo automatizados con N8N para integración de APIs y reducción de carga operativa.",
-        "Optimicé consultas SQL en PostgreSQL mejorando el rendimiento de módulos empresariales."
+        "Developed and implemented backend customizations for ERP ecosystems (Openbravo and Odoo) using Java and Python.",
+        "Designed automated workflows with N8N for API integration and operational load reduction.",
+        "Optimized SQL queries in PostgreSQL, improving the performance of enterprise modules."
       ]
     },
     {
-      "company": "Secretaría Técnica Inmobiliar",
-      "position": "Pasante de Desarrollo de Software",
-      "period": "Ago 2024 - Sep 2024",
+      "company": "Java EE Web Application Development",
+      "position": "Software Development Intern",
+      "period": "Aug 2024 - Sep 2024",
       "location": "Quito",
       "description": [
-        "Desarrollé aplicaciones web bajo el estándar Java EE para la gestión de asuntos internos.",
-        "Refactoricé código Java y migré componentes visuales para mejorar la estabilidad y escalabilidad del sistema.",
-        "Diseñé esquemas de bases de datos relacionales, garantizando la integridad de información crítica."
+        "Developed web applications under the Java EE standard for internal affairs management.",
+        "Refactored Java code and migrated visual components to improve system stability and scalability.",
+        "Designed relational database schemas, ensuring the integrity of critical information."
       ]
     },
     {
-      "company": "Óptica Geovisión",
-      "position": "Líder de Proyecto de Desarrollo de Software",
-      "period": "Ene 2024 - Jun 2024",
+      "company": "Inventory Management System Development",
+      "position": "Software Development Project Lead",
+      "period": "Jan 2024 - Jun 2024",
       "location": "",
       "description": [
-        "Lideré un equipo de 2 personas en el desarrollo de sistemas de escritorio utilizando Java y PostgreSQL, supervisando todas las fases del proyecto desde la planificación hasta su despliegue.",
-        "Desarrollé sistemas de gestión de fichas técnicas e inventario para una óptica, incluyendo manejo de facturación, control de stock, especificaciones de lentes y funcionalidades de creación, actualización e impresión.",
-        "Coordiné con el cliente para definir requisitos del software y capacité al equipo en tecnologías como Java y PostgreSQL para mejorar sus habilidades técnicas."
+        "Led a 2-person team in developing desktop systems using Java and PostgreSQL, overseeing all project phases from planning to deployment.",
+        "Developed technical data sheet and inventory management systems for an optician, including billing, stock control, lens specifications, and features for creation, update, and printing.",
+        "Coordinated with the client to define software requirements and trained the team in technologies like Java and PostgreSQL to enhance their technical skills."
       ]
     }
   ],
   "education": [
     {
       "institution": "Universidad Politécnica Salesiana",
-      "degree": "Ingeniería en Ciencias de la Computación",
+      "degree": "B.S. in Computer Science",
       "period": "2021 - 2025"
     }
   ],
@@ -59,5 +59,16 @@
     "Git & GitHub",
     "N8N & Metabase"
   ],
-  "projects": []
+  "projects": [
+    {
+      "name": "Pet Store e-commerce",
+      "image": "/pet_shop.png",
+      "link": "https://github.com/X7OH/Tienda-Mascotas--ExAnalisis-",
+      "notes": "Local deployment configured with SQLite for testing purposes. Developed using Django and Python.",
+      "overview": [
+        "The Pet Store e-commerce project is an online platform designed to provide a seamless shopping experience for pet owners. It features an extensive catalog of pet products, user authentication, and shopping cart functionality.",
+        "The platform includes administrative functions for managing the inventory, updating product details, and tracking customer interactions. Built with Django and Python, it ensures a reliable and scalable backend architecture tailored for retail operations."
+      ]
+    }
+  ]
 }

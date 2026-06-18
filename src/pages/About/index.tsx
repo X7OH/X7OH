@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="flex-grow flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-700 ease-in-out">
       <div className="space-y-4 mb-12">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-100">Sobre mí</h1>
+        <h1 className="text-4xl font-bold tracking-tight text-zinc-100">About me</h1>
         <p className="text-lg text-zinc-400 max-w-3xl leading-relaxed">
           {summary}
         </p>
@@ -19,7 +19,7 @@ export default function About() {
         <div className="space-y-8">
           <div className="flex items-center gap-3 border-b border-zinc-800 pb-4">
             <Briefcase className="text-indigo-400" />
-            <h2 className="text-2xl font-semibold text-zinc-100 m-0">Experiencia Laboral</h2>
+            <h2 className="text-2xl font-semibold text-zinc-100 m-0">Work Experience</h2>
           </div>
           
           <div className="space-y-8">
@@ -48,7 +48,7 @@ export default function About() {
         <div className="space-y-8">
           <div className="flex items-center gap-3 border-b border-zinc-800 pb-4">
             <GraduationCap className="text-indigo-400" />
-            <h2 className="text-2xl font-semibold text-zinc-100 m-0">Educación</h2>
+            <h2 className="text-2xl font-semibold text-zinc-100 m-0">Education</h2>
           </div>
           
           <div className="space-y-8">

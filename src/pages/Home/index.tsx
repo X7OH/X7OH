@@ -30,7 +30,7 @@ export default function Home() {
         <div className="flex-1 space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl sm:text-6xl font-bold tracking-tight text-zinc-100">
-              Hola, soy <span className="text-indigo-400">{name.split(' ')[0]}</span>.
+              Hi, I'm <span className="text-indigo-400">{name.split(' ')[0]}</span>.
             </h1>
             <h2 className="text-2xl sm:text-3xl font-medium text-zinc-400">
               {title}
@@ -47,13 +47,13 @@ export default function Home() {
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-indigo-500 hover:bg-indigo-600 text-white font-medium rounded-lg transition-colors"
             >
               <Download size={20} />
-              Descargar CV
+              Download CV
             </a>
             <Link 
               to="/projects"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-zinc-800 hover:bg-zinc-700 text-zinc-100 font-medium rounded-lg transition-colors"
             >
-              Ver Proyectos
+              View Projects
               <ArrowRight size={20} />
             </Link>
           </div>
@@ -71,7 +71,7 @@ export default function Home() {
 
       {/* Work Experience Section */}
       <div className="space-y-8 mb-24 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200 fill-mode-both">
-        <h2 className="text-2xl font-bold text-zinc-100">Experiencia laboral</h2>
+        <h2 className="text-2xl font-bold text-zinc-100">Work experience</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-12 md:gap-y-10">
           {experience.map((exp, i) => (
             <div key={i} className="flex gap-5 group">
@@ -95,9 +95,9 @@ export default function Home() {
       {/* Technologies Section */}
       <div className="animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300 fill-mode-both">
         <div className="flex items-center gap-3 mb-8">
-          <h2 className="text-2xl font-bold text-zinc-100">Tecnologías con las que trabajo</h2>
+          <h2 className="text-2xl font-bold text-zinc-100">Technologies I work with</h2>
           <Link to="/about" className="text-zinc-500 hover:text-zinc-300 text-sm flex items-center gap-1 transition-colors mt-1">
-            Más <ArrowUpRight size={14} />
+            More <ArrowUpRight size={14} />
           </Link>
         </div>
         

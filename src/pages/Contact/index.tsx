@@ -22,7 +22,7 @@ export default function Contact() {
     },
     {
       icon: <Phone className="text-indigo-400" size={24} />,
-      label: 'Teléfono',
+      label: 'Phone',
       value: phone,
       href: `tel:${phone.replace(/\s+/g, '')}`
     },
@@ -34,7 +34,7 @@ export default function Contact() {
     },
     {
       icon: <MapPin className="text-indigo-400" size={24} />,
-      label: 'Ubicación',
+      label: 'Location',
       value: 'Ecuador',
       href: null
     }
@@ -43,9 +43,9 @@ export default function Contact() {
   return (
     <div className="flex-grow flex flex-col animate-in fade-in slide-in-from-bottom-4 duration-700 ease-in-out">
       <div className="space-y-4 mb-12 max-w-2xl">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-100">Contacto</h1>
+        <h1 className="text-4xl font-bold tracking-tight text-zinc-100">Contact</h1>
         <p className="text-lg text-zinc-400 leading-relaxed">
-          ¿Interesado en colaborar o tienes alguna pregunta? No dudes en contactarme a través de cualquiera de los siguientes medios.
+          Interested in collaborating or have a question? Don't hesitate to contact me through any of the following channels.
         </p>
       </div>
 
