@@ -2,6 +2,17 @@ import { Link } from 'react-router-dom';
 import { ExternalLink, Terminal } from 'lucide-react';
 import portfolioData from '../../data/portfolio.json';
 
+interface Project {
+  id?: string;
+  name: string;
+  image?: string;
+  video?: string;
+  notes?: string;
+  overview?: string[];
+  technologies?: string[];
+  link?: string;
+}
+
 export default function Projects() {
   const projects = portfolioData.projects;
 
@@ -16,7 +27,7 @@ export default function Projects() {
 
       {projects && projects.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project: any, index: number) => (
+          {projects.map((project: Project, index: number) => (
             <div key={index} className="flex flex-col bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden hover:border-zinc-700 transition-colors">
               <div className="w-full h-48 bg-zinc-950 relative border-b border-zinc-800 overflow-hidden">
                 {project.video ? (
