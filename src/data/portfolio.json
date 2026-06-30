@@ -75,13 +75,12 @@
     {
       "id": "lens-data-sheet",
       "name": "Lens technical data sheet",
-      "image": "https://img.youtube.com/vi/QsSdjQJ6a5c/hqdefault.jpg",
-      "video": "https://www.youtube.com/embed/QsSdjQJ6a5c",
+      "video": "/lens_demo.mp4",
       "technologies": ["Java", "Swing", "PostgreSQL"],
       "notes": "Desktop inventory management and technical data sheet system developed for an optician.",
       "overview": [
-        "Led a 2-person team in developing this comprehensive desktop system. The application handles billing, stock control, and specific lens specifications.",
-        "It features comprehensive modules for the creation, update, and printing of technical sheets, ensuring the optician can easily track and fulfill client orders."
+        "This specialized software is engineered to generate comprehensive technical data sheets for optical lenses, capturing every critical specification. These sheets are vital for the primary optical laboratory, allowing them to streamline the distribution of lenses to associated retail stores. The application incorporates a full CRUD system to manage these technical documents, organizing them in accessible tables where they can be easily printed for customer deliveries or exported to Excel for flexible data sharing.",
+        "Beyond product management, the system features a dedicated module for handling customer profiles with its own independent CRUD capabilities, ensuring the optical business can keep client information perfectly organized and up-to-date. Powerful search and filtering tools are built-in, enabling users to quickly locate specific technical sheets or customer records. By combining precise documentation, efficient data handling, and an intuitive interface, this application significantly improves sales operations and client management."
       ]
     },
     {
@@ -91,9 +90,9 @@
       "technologies": ["Java", "Swing", "PostgreSQL", "Excel"],
       "notes": "Inventory management system for lens glasses with detailed tracking and Excel export.",
       "overview": [
-        "This Java program is an inventory management system for lens glasses, allowing users to input, modify, and track products with detailed specifications such as name, manufacturer, addition, index, base curve, material, type of lens, and quantity. The program includes extensive validation to ensure data integrity, and it updates the user interface to reflect the current state of the inventory.",
-        "The system features tables that display all products in the inventory, providing a clear overview of each product's stock levels and specifications. Users can easily update product information, ensuring the database remains accurate and up-to-date. The program supports both adding new products and updating existing ones, with confirmation prompts to prevent accidental changes.",
-        "Additionally, the program maintains a detailed log of stock movements, recording each transaction's timestamp and specifics. This allows for comprehensive tracking of inventory changes over time, aiding in stock management and planning. It also includes a way to download the information in excel format."
+        "Developed in Java, this inventory system is designed specifically to manage and track optical lenses. It enables users to register, edit, and monitor inventory items with comprehensive details like manufacturer, base curve, index, material, and quantity. Robust data validation is integrated to maintain database reliability, while the user interface instantly updates to show the latest stock status.",
+        "The application includes intuitive data tables that provide a complete snapshot of the available inventory and product specifications. This makes it straightforward for staff to keep records current. The software accommodates both the creation of new entries and the modification of existing ones, featuring safety prompts to avoid unintended edits.",
+        "Furthermore, the software automatically logs all inventory movements, capturing exact timestamps and transaction details. This functionality facilitates long-term stock tracking and simplifies inventory planning. It also provides a practical feature to export all data directly into Excel spreadsheets."
       ]
     }
   ]
